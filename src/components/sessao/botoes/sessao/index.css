@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btnlogar
+{
+    display: flex;
+    justify-content: center;
+}
+.btnlogar button
+{
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    background-color: #110E6F;
+    border-radius: 10px;
+    padding: 5px;
+}

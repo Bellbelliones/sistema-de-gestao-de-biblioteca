@@ -1,9 +1,11 @@
+import Formulario from "./components/sessao/formulario"
+
 
 export function App() {
  
   return (
     <>
-      Olá
+      <Formulario />
     </>
   )
 }
