@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.corpoFormulario
+{
+    background-color: #2f2f2f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*para a imagem*/
+
+    background-image: url("/fundoLogin.pnng");
+    background-size: cover;      /* cobre toda a tela */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;
+}
+.corpoFormulario .subcorpo
+{
+    background-color: rgba(255, 255, 255, 0.034);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+.corpoFormulario div .logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.corpoFormulario div .logo img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.corpoFormulario .subcorpo form .esqueceuSen
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.corpoFormulario .subcorpo form .esqueceuSen div:nth-child(1) input[type="checkbox"]
+{
+    appearance: none;
+    margin-right: 3px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: middle;
+    color: #fff;
+    transition: background-color 0.2s;
+    padding: 10px;
+    text-align: center;
+}
+/* Fundo quando estiver checado */
+
+.corpoFormulario .subcorpo form .esqueceuSen div:nth-child(1) input[type="checkbox"]:checked
+{
+  background-color: rgb(17, 14, 111); /* Verde claro */
+  border: 3px solid #fff;
+}
+
+/* Adiciona um ícone de checkmark */
+
+.corpoFormulario .subcorpo form .esqueceuSen div:nth-child(1) input[type="checkbox"]:checked::after
+{
+  content: "✔";
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-size: 16px;
+  color: white;
+}
+
+
+.corpoFormulario .subcorpo form .esqueceuSen div:nth-child(1) span
+{
+    color: #fff;
+}
+
+.corpoFormulario .subcorpo form .esqueceuSen div:nth-child(2) a
+{
+    color: white;
+}
+
+.corpoFormulario .subcorpo form .cadastrase
+{
+    text-align: center;
+    margin-top: 10%;
+    color:#fff;
+}
+.corpoFormulario .subcorpo form .cadastrase a
+{
+    color: rgb(17, 14, 111);
+}

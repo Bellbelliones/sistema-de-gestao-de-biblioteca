@@ -1,6 +1,6 @@
-import InputUsuario from "../input/email/index"
-import InputSenha from "../input/senha/index"
-import BotaoSessao from "../botoes/sessao/index";
+import InputUsuario from "../../input/email/index"
+import InputSenha from "../../input/senha/index"
+import BotaoSessao from "../../botoes/sessao/index";
 
 import "./index.css"
 import logo from"../../../IMG/a317b56fbd850e90c8a3c9c61bf319e13531038e(2).png"
@@ -20,11 +20,17 @@ const Formulario = () =>
                     <InputSenha />
                     <br />
                     <div className="esqueceuSen">
-                        <input type="checkbox" name="" id="" />
-                        <a href="">Esqueceu a senha?</a>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <span>Lembrar</span>
+                        </div>
+                        <div>
+                            <a href="">Esqueceu a senha?</a>
+                        </div>
                     </div>
                     <br />
                     <BotaoSessao titulo="Entrar"/>
+                    <div className="cadastrase">Não é membro? <a href="">Cadastra-se agora</a></div>
                 </form>
             </div>
         </div>
