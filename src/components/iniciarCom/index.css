@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.centralizar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .subcontainer
+{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: row;
+}
+.container .subcontainer div
+{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+.container .subcontainer div:nth-child(1)
+{
+
+    border-radius: 10px 0px 0px 10px;
+    background-color: #fff;
+}
+.container .subcontainer div:nth-child(2)
+{
+
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffffff83;
+}
+.container .subcontainer div:nth-child(2) FaFacebookF
+{
+    background-color: #1877F2;
+    color: #fff;
+}

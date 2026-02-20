@@ -1,6 +1,6 @@
-import InputUsuario from "../../input/email/index"
-import InputSenha from "../../input/email/"
-import BotaoSessao from "../../botoes/sessao/";
+import InputUsuario from "../../components/sessao/input/usuario"
+import InputSenha from "../../components/sessao/input/senha"
+import BotaoSessao from "../../components/sessao/botoes/sessao";
 
 import "./index.css"
 import logo from"/logo.png"

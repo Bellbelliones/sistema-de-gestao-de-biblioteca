@@ -4,18 +4,16 @@ import { FiEyeOff } from "react-icons/fi";
 
 import "./index.css";
 
-const InputUsuario = () => {
+const InputSenha = () => {
   return (
     <div className="organizaCorpoInput">
         <div className="corpoInput">
             <div> <FiLock size={22} /></div>
             <div><input type="password" placeholder={"********"}/></div>
             <div><FiEyeOff size={22} /></div>
-            
-
         </div>
     </div>
   );
 }
 
-export default InputUsuario;
+export default InputSenha;

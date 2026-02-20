@@ -1,11 +1,12 @@
-import FormularioLogin from "./components/sessao/formulario/Login"
+import FormularioLogin from "./pages/Login"
+import FormularioCadastro from "./pages/CadastrarSe"
 
 
 export function App() {
  
   return (
     <>
-      <FormularioLogin />
+      <FormularioCadastro />
     </>
   )
 }
