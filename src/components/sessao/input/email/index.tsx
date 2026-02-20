@@ -6,7 +6,7 @@ const InputSenha = () => {
     <div className="organizaCorpoInput">
         <div className="corpoInput">
             <div><FiUser size={22} /></div>
-            <div><input type="email" placeholder={"USUÁRIO"}/></div>
+            <div><input type="email" placeholder={"USUÁRIO"} required/></div>
         </div>
     </div>
   );

@@ -1,11 +1,11 @@
-import Formulario from "./components/sessao/formulario/Login"
+import FormularioLogin from "./components/sessao/formulario/Login"
 
 
 export function App() {
  
   return (
     <>
-      <Formulario />
+      <FormularioLogin />
     </>
   )
 }

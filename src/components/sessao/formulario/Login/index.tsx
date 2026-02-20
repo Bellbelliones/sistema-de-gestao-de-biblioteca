@@ -1,11 +1,11 @@
 import InputUsuario from "../../input/email/index"
-import InputSenha from "../../input/senha/index"
-import BotaoSessao from "../../botoes/sessao/index";
+import InputSenha from "../../input/email/"
+import BotaoSessao from "../../botoes/sessao/";
 
 import "./index.css"
-import logo from"../../../IMG/a317b56fbd850e90c8a3c9c61bf319e13531038e(2).png"
+import logo from"/logo.png"
 
-const Formulario = () =>
+const FormularioLogin = () =>
 {
     return(
         <>
@@ -39,4 +39,4 @@ const Formulario = () =>
 }
 
 
-export default Formulario;
+export default FormularioLogin;
