@@ -1,0 +1,25 @@
+.botao-icone {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 8px;
+
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 3px;
+
+    background: #223EA6;
+    color: white;
+
+    cursor: pointer;
+}
+
+.botao-icone .icone {
+  font-size: 10px;
+  color: #FFCC00;
+}
+
+.botao-icone .texto {
+  font-size: 10px;
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+ 
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.main .aside:nth-child(1)
+{
+    background-color: #110E6F;
+    width: 15%;
+    height: 560px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .aside:nth-child(1) BotaoIcone
+{
+    margin-bottom: 5px;
+}
+.main .aside:nth-child(1) .botoesArea
+{   
+    height: 80vh;
+    margin-top: 40px;
+}
+
+.main .aside:nth-child(1) .loginArea
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.main .aside:nth-child(1) .loginArea div:nth-child(1) img
+{
+    background-color: #2f2f2f;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+
+.main .aside:nth-child(2)
+{
+    width: 80%;
+    height: 550px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
